@@ -64,27 +64,7 @@ getTranslations = function () {
       en: 'This rally is a test version and not the final product. It is intended for testing purposes only.'
     }
   }
-  text["setup.1"] = {
-    "1": {
-      de: 'Anzahl Spieler',
-      en: 'Number of players'
-    },
-    "2": {
-      de: 'Bitte wähle die Spieleranzahl aus.',
-      en: 'Please select the number of players.'
-    }
-  }
-  text["setup.2"] = {
-    "1": {
-      de: 'Rollenwahl',
-      en: 'Role selection '
-    },
-    "2": {
-      de: 'Sende diesen QR-Code an deine Mitspielenden.',
-      en: 'Send this QR code to your teammates.'
-    }
-  }
-  text["setup.3"] = {
+  text["setup.browsercheck"] = {
     "1": {
       de: 'Browser Check',
       en: 'Browser Check'
@@ -94,7 +74,7 @@ getTranslations = function () {
       en: 'Please use either Chrome browser (Android) or Safari (iOS) to open this link.'
     }
   }
-  text["setup.4"] = {
+  text["setup.installation"] = {
     "1": {
       de: 'Installation',
       en: 'Installation'
@@ -117,21 +97,38 @@ getTranslations = function () {
     },
     "6": {
       de: ' und folge danach der Anleitung auf dem Bildschirm.',
-      en: 'and then follow the instructions on the screen.'
+      en: ' and then follow the instructions on the screen.'
     },
     "7": {
       de: 'Verlasse den Browser und öffne die neu hinzugefügte App.',
       en: 'Exit the browser and open the newly added app.'
     }
-    
   }
-  text["setup.5"] = {
+  text["setup.player"] = {
     "1": {
-      de: 'Hallo Geisterjäger. Und willkommen zur Testversion von Spuk & Schreck. Wir sind Anne, Gerd und Gregor. Die Entwickler dieser interaktiven Geister-Rallye. Diese Rallye ist für Familien, Freunde und Leute gemacht, die. sich gern gruseln und gemeinsam Zeit an der frischen Luft verbringen. Wir überprüfen jetzt, ob dein Handy die nötigen Voraussetzungen erfüllt. Und dann geht es auch schon los.',
-      en: 'Hello ghost hunters. And welcome to the test version of Spuk & Schreck. We are Anne, Gerd and Gregor. The developers of this interactive ghost rally. This rally is made for families, friends and people who. like to be spooked and spend time together in the fresh air. We\'re going to check if your phone meets the necessary requirements. And then we\'ll get started.'
+      de: 'Anzahl Spieler',
+      en: 'Number of players'
     },
+    "2": {
+      de: 'Bitte wähle die Spieleranzahl aus.',
+      en: 'Please select the number of players.'
+    }
   }
-  text["setup.6"] = {
+  text["setup.role"] = {
+    "1": {
+      de: 'Rollenwahl',
+      en: 'Role selection '
+    },
+    "2": {
+      de: 'Lasse diesen QR-Code von deinem Mitspielenden scannen. Dieser ist Navigator/Scanner.',
+      en: 'Have this QR code scanned by your teammate. This is the navigator/scanner.'
+    },
+    "3": {
+      de: 'Lasse diese beiden QR-Codes von deinen Mitspielenden scannen. Dieser sind Navigator und Scanner.',
+      en: 'Have these two QR codes scanned by your fellow players. These are the navigator and scanner.'
+    }
+  }
+  text["setup.location"] = {
     "1": {
       de: 'Standort',
       en: 'Location'
@@ -149,7 +146,7 @@ getTranslations = function () {
       en: 'Open settings'
     }
   }
-  text["setup.7"] = {
+  text["setup.camera"] = {
     "1": {
       de: 'Geister',
       en: 'Ghosts'
@@ -162,6 +159,12 @@ getTranslations = function () {
       de: 'Wir benötigen Zugriff auf deine Kamera, um dir die Geister zu zeigen.',
       en: 'We need access to your camera to show you the ghosts.'
     }
+  }
+  text["intro.welcome"] = {
+    "1": {
+      de: 'Hallo Geisterjäger. Und willkommen zur Testversion von Spuk & Schreck. Wir sind Anne, Gerd und Gregor. Die Entwickler dieser interaktiven Geister-Rallye. Diese Rallye ist für Familien, Freunde und Leute gemacht, die. sich gern gruseln und gemeinsam Zeit an der frischen Luft verbringen. Wir überprüfen jetzt, ob dein Handy die nötigen Voraussetzungen erfüllt. Und dann geht es auch schon los.',
+      en: 'Hello ghost hunters. And welcome to the test version of Spuk & Schreck. We are Anne, Gerd and Gregor. The developers of this interactive ghost rally. This rally is made for families, friends and people who. like to be spooked and spend time together in the fresh air. We\'re going to check if your phone meets the necessary requirements. And then we\'ll get started.'
+    },
   }
   text["intro.1"] = {
     "1": {
@@ -219,7 +222,7 @@ getTranslations = function () {
       en: 'Paranormal activities.'
     }
   }
-  text["map.1"] = {
+  text["main.navigator"] = {
     "1": {
       de: 'Laufe zu einem Geist!',
       en: 'Run to a ghost!'
@@ -229,7 +232,27 @@ getTranslations = function () {
       en: 'As soon as it turns yellow, you can click on it.'
     }
   }
-  text["map.2"] = {
+  text["main.scanner"] = {
+    "1": {
+      de: 'Frequenzeingabe',
+      en: 'Frequency input'
+    },
+    "2": {
+      de: 'Trage hier deine erhaltene Frequenz ein.',
+      en: 'Enter your received frequency here.'
+    }
+  }
+  text["main.storyteller"] = {
+    "1": {
+      de: 'Frequenzeingabe',
+      en: 'Frequency input'
+    },
+    "2": {
+      de: 'Trage hier deine erhaltene Frequenz ein.',
+      en: 'Enter your received frequency here.'
+    }
+  }
+  text["hotspot.splash"] = {
     "1": {
       de: 'Achtung!',
       en: 'Attention!'
@@ -239,7 +262,7 @@ getTranslations = function () {
       en: 'Paranormal activity detected.'
     }
   }
-  text["map.3"] = {
+  text["hotspot.intro"] = {
     "1": {
       de: 'Du hast ein paranormales Feld betreten. Zeit die Geister aufzuspüren. Dein Scanner sucht gerade nach Geister-Echos. Echos sind verblasste Erinnerungen oder Emotionen. Sie binden die Geister an einen spezifischen Ort. Schau dir die Fotos an und versuche die Rätsel zu lösen. Die Antworten befinden sich ganz in der Nähe.',
       en: 'You have entered a paranormal field. Time to track down the ghosts. Your scanner is currently searching for ghost echoes. Echoes are faded memories or emotions. They tie the ghosts to a specific location. Look at the photos and try to solve the puzzles. The answers are close by.'
@@ -249,7 +272,7 @@ getTranslations = function () {
       en: 'You have entered a paranormal field. Time to track down the ghosts. Your scanner is currently searching for ghost echoes. Echoes are faded memories or emotions. They tie the ghosts to a specific location. Look at the photos and try to solve the puzzles. The answers are close by.'
     }
   }
-  text["map.5"] = {
+  text["hotspot.questions"] = {
     "1": {
       de: 'Frage',
       en: 'Question'
@@ -269,20 +292,13 @@ getTranslations = function () {
     "5": {
       de: 'Keine Punkte',
       en: 'No points'
-    }
-    
-  }
-  text["ar.1"] = {
-    "1": {
-      de: 'Frequenzeingabe',
-      en: 'Frequency input'
     },
-    "2": {
-      de: 'Trage hier deine erhaltene Frequenz ein.',
-      en: 'Enter your received frequency here.'
-    }
+    "6": {
+      de: 'Antwort',
+      en: 'Answer'
+    },
   }
-  text["ar.2"] = {
+  text["hotspot.ar"] = {
     "1": {
       de: 'AR-Kamera',
       en: 'AR camera'
@@ -296,7 +312,7 @@ getTranslations = function () {
       en: 'Open the camera, examine the crime scene and take photos of everything that seems important to you.'
     }
   }
-  text["ar.3"] = {
+  text["hotspot.ghost"] = {
     "1": {
       de: 'Ein neuer Geist ist ab sofort in deinem Inventar verfügbar.',
       en: 'A new ghost is now available in your inventory.'
@@ -306,17 +322,7 @@ getTranslations = function () {
       en: 'Open AR camera'
     }
   }
-  text["story.1"] = {
-    "1": {
-      de: 'Frequenzeingabe',
-      en: 'Frequency input'
-    },
-    "2": {
-      de: 'Trage hier deine erhaltene Frequenz ein.',
-      en: 'Enter your received frequency here.'
-    }
-  }
-  text["story.3"] = {
+  text["hotspot.solution"] = {
     "1": {
       de: 'Die Angst was mit seinem Hund Ben passiert hat Herbert im Tod keine Ruhe gelassen. Ben kommt daher nicht ins Tierheim sondern zu Herberts Familie.',
       en: 'The fear of what would happen to his dog Ben has left Herbert no peace in death. Ben was therefore not sent to the animal shelter but to Herbert`s family.'
@@ -330,7 +336,7 @@ getTranslations = function () {
       en: 'Case solved!'
     }
   }
-  text["story.4"] = {
+  text["hotspot.rune"] = {
     "1": {
       de: 'Alle Fragen wurden richtig beantwortet. Als Dank hat Herbert dir eine okkulte Rune übersetzt.',
       en: 'All questions were answered correctly. As a thank you, Herbert has translated an occult rune for you.'
@@ -348,13 +354,13 @@ getTranslations = function () {
       en: 'Unfortunately, not all questions were answered correctly. Therefore there is no rune this time.'
     }
   }
-  text["story.5"] = {
+  text["hotspot.secret"] = {
     "1": {
       de: 'Geheime Botschaft',
       en: 'Secret message'
     }
   }
-  text["story.6"] = {
+  text["hotspot.outro"] = {
     "1": {
       de: 'Outro Herbert',
       en: 'Outro Herbert'
@@ -364,7 +370,7 @@ getTranslations = function () {
       en: 'Outro Rosa'
     }
   }
-  text["end.1"] = {
+  text["outro.message"] = {
     "1": {
       de: 'Unser Ziel',
       en: 'Our Goal'
