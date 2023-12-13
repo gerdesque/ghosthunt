@@ -189,8 +189,8 @@ getTranslations = function () {
   }
   text["intro.1"] = {
     "1": {
-      de: 'Spuk & Schreck',
-      en: 'Spuk & Schreck'
+      de: 'Ghost Walkers',
+      en: 'Ghost Walkers'
     },
     "2": {
       de: 'Die Rallye beginnt...',
@@ -205,9 +205,14 @@ getTranslations = function () {
   }
   text["intro.3"] = {
     "1": {
-      de: 'Anruf',
-      en: 'Incoming Call'
+      de: 'Holger',
+      en: 'Holger'
+    },
+    "2": {
+      de: 'ruft an',
+      en: 'is calling'
     }
+
   }
   text["intro.4"] = {
     "1": {
@@ -223,9 +228,13 @@ getTranslations = function () {
   }
   text["intro.6"] = {
     "1": {
-      de: 'Okkulte Runen',
-      en: 'Occult Runes'
+      de: 'Ziel',
+      en: 'Goal'
     },
+    "2": {
+      de: 'Hilf Holger diese okkulten Botschaft zu übersetzen, um das Spiel zu gewinnen.',
+      en: 'Help Holger to decode this secret message, to win the game'
+    }
   }
   text["intro.7"] = {
     "1": {
@@ -235,8 +244,8 @@ getTranslations = function () {
   }
   text["main.navigator"] = {
     "1": {
-      de: 'Betrete einen Hotspot!',
-      en: 'Enter one of the paranormal fields displayed!'
+      de: 'Betrete einen pinken Kreis!',
+      en: 'Enter one of the pink Circles'
     },
     "2": {
       de: '',
